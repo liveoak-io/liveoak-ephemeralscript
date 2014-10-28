@@ -1,6 +1,7 @@
 {
   "id" : "ephemeralscript",
   "name" : "ephemeralscript",
+  "example" : true,
   "resources" : {
     "client" : {
       "type" : "aggregating-filesystem",
