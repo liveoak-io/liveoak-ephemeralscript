@@ -1,7 +1,7 @@
 {
   "id" : "ephemeralscript",
   "name" : "ephemeralscript",
-  "example" : true,
+  "example" : "ephemeralscript",
   "resources" : {
     "client" : {
       "type" : "aggregating-filesystem",
@@ -45,12 +45,7 @@
     "storage" : {
       "type" : "mongo",
       "config" : {
-        "db" : "LiveOakExamples-EphemeralScript",
-        "servers" : [ {
-          "host" : "localhost",
-          "port" : 27017
-        } ],
-        "credentials" : [ ]
+        "db" : "LiveOakExamples-EphemeralScript"
       }
     },
     "scripts" : {
